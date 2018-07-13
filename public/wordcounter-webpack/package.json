@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server -p",
     "build": "cross-env NODE_ENV=production webpack -p"
   },
   "keywords": [],
@@ -14,7 +15,8 @@
     "babel-preset-react-app": "^3.1.2",
     "cross-env": "^5.2.0",
     "webpack": "^4.16.0",
-    "webpack-cli": "^3.0.8"
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
   },
   "description": ""
 }
