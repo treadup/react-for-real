@@ -1,3 +1,5 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 function makeFakeRequest() {
     return new Promise((resolve, reject) => {
